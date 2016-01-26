@@ -1,192 +1,205 @@
 * {
-  margin: 0;
-  padding: 0;
-  font-family: 'Questrial';
-  color: #5B6063;
+    margin: 0;
+    padding: 0;
+    font-family: 'Questrial';
+    color: #5B6063;
 }
-
 header {
-  background-color: #1F54A7;
-  text-align: center;
+    background-color: #1F54A7;
+    text-align: center;
 }
-
 header i {
-  padding-top: 2em;
-  color: white;
+    padding-top: 2em;
+    color: white;
 }
-
 header h1 {
-  font-size: 4em;
-  color: white;
+    font-size: 4em;
+    color: white;
 }
-
 nav {
-  margin-top: 4em;
-  padding-bottom: 1em;
+    margin-top: 4em;
+    padding-bottom: 1em;
 }
-
 nav ul {
-  list-style: none;
+    list-style: none;
 }
-
 ul li {
-  display: inline-block;
-  margin: 0 1em 0 1em;
+    display: inline-block;
+    margin: 0 1em 0 1em;
 }
-
 ul li a {
-  text-decoration: none;
-  color: white;
-  font-size: 14px;
-  padding: 2em 1em 2em 1em;
-  border-radius: 10px 10px 0 0;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 2em 1em 2em 1em;
+    border-radius: 10px 10px 0 0;
 }
 ul li a:hover {
-  background-color: white;
-  color: #1F54A7;
+    background-color: white;
+    color: #1F54A7;
 }
-
-main {
-  text-align: center;
-  width: 93%;
-  margin: auto;
+#container {
+    text-align: center;
+    width: 93%;
+    margin: auto;
 }
-
 img {
-  margin-top: 5em;
-  width: 100%;
+    margin-top: 5em;
+    width: 100%;
 }
-
 #texte {
-  margin: auto;
-  width: 80%;
-  margin-top: 5em;
-  margin-bottom: 5em;
+    margin: auto;
+    width: 80%;
+    margin-top: 5em;
+    margin-bottom: 5em;
 }
-
 #texte p {
-  line-height: 1.5em;
+    line-height: 1.5em;
 }
 #texte p i {
-  font-weight: bold;
-  font-style: normal;
+    font-weight: bold;
+    font-style: normal;
 }
 #texte p a {
-  color: blue;
+    color: blue;
 }
 #section1 {
-  border-bottom: 1px solid grey;
+    border-bottom: 1px solid grey;
 }
 #section1 h2 {
-  font-size: 45px;
-  font-weight: bold;
-  margin-bottom: 1.3em;
-  color: black;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 1.3em;
+    color: black;
 }
-
 #section2 {
-  padding: 5em 0 6em 0;
-  border-bottom: 1px solid grey;
+    padding: 5em 0 6em 0;
+    border-bottom: 1px solid grey;
 }
-
 #section2 article {
-  width: 30%;
-  margin: 0 1em 0 1em;
-  display: inline-block;
+    width: 30%;
+    margin: 0 0.5em 0 0.5em;
+    display: inline-block;
 }
-
 #section2 h3 {
-  font-size: 26px;
-  color: black;
+    font-size: 26px;
+    color: black;
 }
-
 #section2 p {
-  line-height: 1.5em;
-  margin: 2em 0 4em 0;
+    line-height: 1.5em;
+    margin: 2em 0 4em 0;
 }
-
 #section2 a {
-  padding: 21px 32px 21px 32px;
-  background-color: #64ABD1;
-  color: white;
-  letter-spacing: 2px;
-  text-decoration: none;
+    padding: 21px 32px 21px 32px;
+    background-color: #64ABD1;
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: none;
 }
 #section3 {
-  padding: 5em 0 6em 0;
+    padding: 5em 0 6em 0;
 }
 #section3 article {
-  display: inline-block;
-  width: 22%;
-  margin: 0 1em 0 1em;
+    display: inline-block;
+    width: 22%;
+    margin: 0 0.5em 0 0.5em;
 }
 #section3 h4 {
-  font-size: 16px;
+    font-size: 16px;
 }
 #section3 p {
-  margin: 1.5em 0 3em 0;
+    margin: 1.5em 0 3em 0;
 }
 #section3 a {
-  color: white;
-  text-decoration: none;
-  padding: 18px 30px 18px 30px;
-  background-color: #64ABD1;
+    color: white;
+    text-decoration: none;
+    padding: 18px 30px 18px 30px;
+    background-color: #64ABD1;
 }
 #contact {
-  background-color: #E3F0F7;
-  text-align: center;
+    background-color: #E3F0F7;
+    text-align: center;
 }
 #contact div {
-  display: inline-block;
-  width: 20%;
-  margin: 0 3em;
-  vertical-align: top;
+    display: inline-block;
+    width: 20%;
+    margin: 0 3em;
+    vertical-align: top;
 }
 #contact i {
-  margin: 1.5em 0 1em 0;
+    margin: 1.5em 0 1em 0;
 }
 #contact p {
-  margin-bottom: 4em;
+    margin-bottom: 4em;
 }
 footer {
-  text-align: center;
-  background-color: #2056AC;
-  border-top: 1em solid #3162B1;
+    text-align: center;
+    background-color: #2056AC;
+    border-top: 1em solid #3162B1;
 }
 footer p {
-  color: white;
-  margin-top: 5em;
+    color: white;
+    margin-top: 5em;
 }
 footer p a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 footer .icons {
-  display: inline-block;
-  background-color: #4C93B9;
-  margin: 3em 0 3em 0;
+    display: inline-block;
+    background-color: #4C93B9;
+    margin: 3em 0 3em 0;
 }
-
 .icons i {
-  color: white;
-  width: 2em;
-  height: 2em;
-  line-height: 2em;
+    color: white;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
 }
-
-@media (max-width:820px) {
-  img {
-    display: none;
-  }
-  #section2 article, #section3 article {
-    display: block;
-    width: 100%;
-    margin: auto;
-    margin-top: 5em;
-  }
-  #section3 a {
-    padding: 10px 2px;
-  }
-
+@media (max-width:800px) {
+    header i {
+        padding-top: 0;
+    }
+    ul li a {
+        padding: 0;
+        border-radius: 0;
+    }
+    nav ul li {
+        display: block;
+        background-color: #3464AF;
+        border-radius: 5px;
+        margin-top: 0.2em;
+    }
+    img {
+        display: none;
+    }
+    #section3, #section2 {
+        padding: 0 0 6em 0;
+    }
+    #section2 article {
+        display: block;
+        width: 100%;
+        margin: auto;
+        margin-top: 5em;
+    }
+    #section3 article {
+        display: inline-block;
+        width: 48%;
+        margin: auto;
+        margin-top: 3em;
+    }
+    #section3 a {
+        padding: 10px 2px;
+    }
+    #contact div {
+        width: 30%;
+        margin: auto;
+    }
+    #contact div p {
+        display: none;
+    }
+    #contact i {
+        margin: 0.5em 0 0.5em 0;
+    }
 }
